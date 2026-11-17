@@ -1,0 +1,18 @@
+# Dependencias y builds
+node_modules
+dist
+coverage
+.vercel
+
+# Secretos: NUNCA se suben. Solo .env.example va al repositorio.
+.env
+.env.*
+!.env.example
+*-firebase-adminsdk-*.json
+serviceAccount*.json
+
+# Varios
+*.log
+.DS_Store
+.idea
+.vscode
